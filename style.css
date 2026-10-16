@@ -1,0 +1,26 @@
+body{
+    background-color:pink
+}
+
+p{
+   color:aliceblue;
+   font-size:20px;
+   font-weight: bold;
+
+}
+
+li{
+    color: green 
+}
+
+#cookies{
+    font-size:20px;
+}
+
+.black-bg{
+    background-color:black;
+    color: white;
+
+    padding: 0px 32px;
+    margin: 64px;
+}
