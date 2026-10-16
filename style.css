@@ -1,26 +1,40 @@
 body{
-    background-color:pink
+    width: 100vw;
+    height: 100vh;
 }
 
-p{
-   color:aliceblue;
-   font-size:20px;
-   font-weight: bold;
+#container {
+    background-color: #EEEEEE;
+    width:100vw;
+    height: 50vh;
 
+    /*display flex is the keyword to setup autolayout*/
+    display: flex;
+    /*what direction the children will face*/
+    flex-direction:row;
+
+    /*we center on both axis*/
+    justify-content:center;
+    align-items: center;
+
+    /*the gap between*/
+    gap: 20px;
 }
 
-li{
-    color: green 
+.box{
+    background-color:#888888;
+    width: 200px;
+    height: 200px;
 }
 
-#cookies{
-    font-size:20px;
-}
+/*a class to style the movies cards*/
+.card{
+    /*set a background color*/
+    background color: #C9E39A;
+    /*internal padding all around*/
+    padding: 16px;
+    /*add round corner */
+    border-radius: 8px;
 
-.black-bg{
-    background-color:black;
-    color: white;
-
-    padding: 0px 32px;
-    margin: 64px;
+    width:20%;
 }
